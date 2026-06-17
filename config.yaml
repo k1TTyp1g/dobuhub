@@ -1,0 +1,27 @@
+# DocuHub 全能文档管家 - 全局配置
+
+app:
+  name: "全能文档管家 DocuHub"
+  version: "1.0.0"
+  author: "DocuHub Team"
+
+scan:
+  default_paths:
+    - "C:/Users/k1T/Desktop"
+    - "C:/Users/k1T/Documents"
+    - "C:/Users/k1T/Downloads"
+    - "C:/Users/k1T/AppData/Local/Packages/"
+
+  file_types:
+    - ".doc"
+    - ".docx"
+
+  # 不扫描的目录（正则）
+  exclude_dirs:
+    - ".*\\\\(System32|Windows|Program Files|AppData\\\\Local\\\\Temp)"
+    - ".*\\\\.git"
+    - ".*\\\\node_modules"
+
+template:
+  default: "academic"
+  directory: "templates/"

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.spec
+
+# User data
+recent_files.json
+docuhub_folders.json
+
+# Binaries
+DocuHub.exe
+DocuHub_Setup.exe
+
+# Generated
+resources/icons/header.bmp
+resources/icons/installer.bmp
+
+# IDE
+.idea/
+.vscode/
+*.swp

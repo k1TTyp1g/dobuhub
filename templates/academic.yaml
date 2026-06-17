@@ -1,0 +1,46 @@
+name: "学术论文规范"
+description: "适用于毕业论文、期刊投稿的标准学术格式"
+version: 1.0
+page:
+  paper_size: "A4"
+  margin_top: 2.54
+  margin_bottom: 2.54
+  margin_left: 3.18
+  margin_right: 3.18
+body:
+  font_name_cn: "宋体"
+  font_name_en: "Times New Roman"
+  font_size: 12
+  bold: false
+  italic: false
+  alignment: "justify"
+  first_line_indent: 2
+  line_spacing_type: "fixed"
+  line_spacing: 20
+  space_before: 0
+  space_after: 0
+headings:
+  level1:
+    font_name_cn: "黑体"
+    font_name_en: "Arial"
+    font_size: 16
+    bold: true
+    alignment: "center"
+    space_before: 12
+    space_after: 6
+  level2:
+    font_name_cn: "黑体"
+    font_name_en: "Arial"
+    font_size: 14
+    bold: true
+    alignment: "left"
+    space_before: 8
+    space_after: 4
+  level3:
+    font_name_cn: "楷体"
+    font_name_en: "Times New Roman"
+    font_size: 12
+    bold: true
+    alignment: "left"
+    space_before: 6
+    space_after: 2
